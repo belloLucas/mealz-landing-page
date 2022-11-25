@@ -228,7 +228,7 @@ header {
 }
 
 .accordion .acc-container.active .content {
-  height: 30px;
+  height: 40px;
 }
 
 .accordion .acc-container.active .title::before {
@@ -340,6 +340,7 @@ header {
   }
 
   .right > .list {
+    max-width: 355px;
     margin: 20px 0 0 20px;
   }
 
@@ -355,10 +356,7 @@ header {
   /* Join Us Section*/
 
   .join-us > .burguer-img {
-    max-width: 150px;
-    position: absolute;
-    right: -10px;
-    margin: 0;
+    display: none;
   }
 
   .boxes {
@@ -399,8 +397,12 @@ header {
   }
 
   .accordion .acc-container {
-    max-width: 375px;
+    max-width: 355px;
     max-height: 120px;
+  }
+
+  .accordion .acc-container .content {
+    max-width: 330px;
   }
 
   .accordion .title {
